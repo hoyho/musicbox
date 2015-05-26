@@ -79,6 +79,7 @@ class Menu:
         self.ui = Ui()
         self.netease = NetEase()
         self.screen = curses.initscr()
+        #enable keypad mode.
         self.screen.keypad(1)
         self.step = 10
         self.stack = []
