@@ -20,6 +20,7 @@ class Ui:
         self.screen = curses.initscr()
         # charactor break buffer
         curses.cbreak()
+        #cbreak模式，按键事件互动
         self.screen.keypad(1)
         self.netease = NetEase()
         curses.start_color()
